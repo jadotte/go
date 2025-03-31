@@ -83,6 +83,8 @@ type Board struct {
 }
 
 func NewBoard() *Board {
+	// initializes new board with starting chess possition
+	// filled in all sub-bitboards 
 	b := &Board{
 		Turn: White,
 	}
